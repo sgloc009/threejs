@@ -61,10 +61,14 @@ export class AppComponent implements OnInit {
     renderer.render(scene,camera);
   }
 
-  @HostListener('document:keypress', ['$event'])
+  @HostListener('document:keydown', ['$event'])
   handleKeyboardEvent(event: KeyboardEvent) {
     this.key = event.key;
     console.log(this.key);
+    switch(this.key){
+      case 'd':
+        this.animateRight
+    }
     if(this.key == 'd'){
       this.animateRight();
     };
