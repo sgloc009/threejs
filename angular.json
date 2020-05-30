@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "threedee"
+    }
+  },
+  "defaultProject": "threedee",
+  "cli": {
+    "analytics": "d7c11e2b-bd4f-4b22-87f1-8b3ff9bc8218"
+  }
 }
